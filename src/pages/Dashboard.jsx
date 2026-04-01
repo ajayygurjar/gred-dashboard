@@ -1,5 +1,7 @@
 import { Users, BookOpen, TrendingUp, Award } from 'lucide-react'
 import StatCard from '../components/StatCard'
+import EnrollmentChart from '../components/EnrollmentChart'
+import CompletionChart from '../components/CompletionChart'
 import { getStats } from '../data/dummyData'
 
 const Dashboard = () => {
@@ -49,6 +51,12 @@ const Dashboard = () => {
                     <StatCard key={stat.title} {...stat} />
                 ))}
             </div>
+            {/*chart*/}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <EnrollmentChart />
+                <CompletionChart />
+            </div>
+
 
         </div>
     )
