@@ -2,6 +2,7 @@ import { Users, BookOpen, TrendingUp, Award } from 'lucide-react'
 import StatCard from '../components/StatCard'
 import EnrollmentChart from '../components/EnrollmentChart'
 import CompletionChart from '../components/CompletionChart'
+import RecentEnrollments from '../components/RecentEnrollments'
 import { getStats } from '../data/dummyData'
 
 const Dashboard = () => {
@@ -56,7 +57,7 @@ const Dashboard = () => {
                 <EnrollmentChart />
                 <CompletionChart />
             </div>
-
+            <RecentEnrollments />
 
         </div>
     )
