@@ -18,7 +18,7 @@ const Users = () => {
     const list = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 
     return (
-        <div className="p2">
+        <div className="p-2">
             <h2 className="text-2xl font-semibold text-slate-800 mb-4">Users</h2>
 
             <div className="flex gap-2 mb-4">

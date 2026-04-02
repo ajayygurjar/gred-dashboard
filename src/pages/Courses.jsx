@@ -23,7 +23,7 @@ const Courses = () => {
         <div className="p-2">
             <h2 className="text-2xl font-semibold text-slate-800 mb-4">Courses</h2>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 mb-4">
                 <input
                     placeholder="Search..."
                     value={search}
